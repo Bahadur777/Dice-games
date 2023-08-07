@@ -1,0 +1,28 @@
+.dice-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+}
+.dice-dive{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.dice-image img{
+ width: 650px;
+ object-fit: cover;
+}
+.dice-text .text h1{
+    font-size: 5rem;
+}
+.dice-btn{
+    text-align: end;
+}
